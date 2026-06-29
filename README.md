@@ -41,56 +41,6 @@ scoop_project/
 └── requirements.txt
 ```
 
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone <repository-url>
-```
-
-2. Navigate to the project directory:
-
-```bash
-cd scoop_project
-```
-
-3. Create and activate a virtual environment:
-
-```bash
-python -m venv venv
-```
-
-Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-4. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-5. Apply migrations:
-
-```bash
-python manage.py migrate
-```
-
-6. Run the development server:
-
-```bash
-python manage.py runserver
-```
-
-7. Open your browser and visit:
-
-```text
-http://127.0.0.1:8000/
-```
-
 ## Contact Form
 
 The contact page allows visitors to submit inquiries. Submitted messages are stored in the database using Django models.
